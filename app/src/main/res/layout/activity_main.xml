@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="top"/>
+
+    <TableRow android:id="@+id/tbr_btnHang1">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/s5"
+            android:padding="30dp"
+            android:text="THI SÁT HẠCH" />
+        <Button
+            android:id="@+id/btn_hoclythuyet"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="HỌC LÝ THUYẾT"
+            android:background="@drawable/s6"/>
+
+        <Button
+            android:id="@+id/bienbao"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="BIỂN BÁO ĐƯỜNG BỘ"
+            android:background="@drawable/s7"/>
+
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="MẸO THI KẾT QUẢ CAO"
+            android:background="@drawable/s8"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TRA CỨU LUẬT NHANH"
+            android:background="@drawable/s9"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="CÁC CÂU HAY SAI"
+            android:background="@drawable/s10"/>
+
+    </TableRow>
+
+
+
+</TableLayout>
