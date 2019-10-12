@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android-Tab-Layout-with-swipe-able-Fragments-master.iml" filepath="$PROJECT_DIR$/Android-Tab-Layout-with-swipe-able-Fragments-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LuyenThiGPLX/LuyenThiGPLX.iml" filepath="$PROJECT_DIR$/LuyenThiGPLX/LuyenThiGPLX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LuyenThiGPLX/app.iml" filepath="$PROJECT_DIR$/LuyenThiGPLX/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material-tab-layout-master.iml" filepath="$PROJECT_DIR$/material-tab-layout-master.iml" />
     </modules>
   </component>
 </project>
