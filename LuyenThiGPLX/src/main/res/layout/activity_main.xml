@@ -11,6 +11,7 @@
     <TableRow android:id="@+id/tbr_btnHang1">
 
         <Button
+            android:id="@+id/thisathach"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:background="@mipmap/s5"

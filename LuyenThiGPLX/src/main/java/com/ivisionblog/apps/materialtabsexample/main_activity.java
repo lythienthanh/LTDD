@@ -9,12 +9,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
-import com.ivisionblog.apps.materialtabsexample.modal.BienBao;
-
 public class main_activity extends AppCompatActivity {
     ViewFlipper v_flipper;
     Button btn_BienBaoDuongBo;
-
+    Button btn_thisathach;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +25,15 @@ public class main_activity extends AppCompatActivity {
                 startActivity(mhBienBao);
             }
         });
+        btn_thisathach = (Button) findViewById(R.id.thisathach);
+        btn_thisathach.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mhBienBao = new Intent(main_activity.this, content.class);
+                startActivity(mhBienBao);
+            }
+        });
+        //load auto slide
         int images[] = {R.mipmap.s1,R.mipmap.s2,R.mipmap.s3,R.mipmap.s4};
 
         v_flipper = (ViewFlipper) findViewById(R.id.v_flipper);
