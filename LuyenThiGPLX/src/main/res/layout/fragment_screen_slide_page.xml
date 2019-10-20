@@ -1,14 +1,84 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/content"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<?xml version="1.0"?>
+<LinearLayout android:orientation="vertical"
+    android:background="#fcfac1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <ScrollView android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/content">
+            <LinearLayout android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
+            <LinearLayout android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tvNum"
+                android:text="Câu 1"
+                android:textStyle="bold"
+                android:textColor="#ff0011"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/tvQuestion"
+                android:text="Câu hỏi thứ nhất "
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+            </LinearLayout>
+                <ImageView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ivIcon"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"/>
+                    <RadioGroup android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/radGroup"
+                        android:paddingLeft="5dp">
+                    <RadioButton android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/radA"
+                        android:text="Trả lời 1"
+                        android:textStyle="bold"
+                        android:textColor="#1502c7"
+                        android:textSize="16sp"
+                        android:checked="false"/>
+                    <RadioButton android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/radB"
+                        android:text="Trả lời 2"
+                        android:textStyle="bold"
+                        android:textColor="#1502c7"
+                        android:textSize="16sp"
+                        android:checked="false"/>
+                    <RadioButton android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/radC"
+                        android:text="Trả lời 3"
+                        android:textStyle="bold"
+                        android:textColor="#1502c7"
+                        android:textSize="16sp"
+                        android:checked="false"/>
+                    <RadioButton android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/radD"
+                        android:text="Trả lời 4"
+                        android:textStyle="bold"
+                        android:textColor="#1502c7"
+                        android:textSize="16sp"
+                        android:checked="false"/>
+                </RadioGroup>
 
-    <TextView style="?android:textAppearanceMedium"
-        android:padding="16dp"
-        android:lineSpacingMultiplier="1.2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AAA........." />
+            </LinearLayout>
 
-</ScrollView>
+    </ScrollView>
+
+</LinearLayout>

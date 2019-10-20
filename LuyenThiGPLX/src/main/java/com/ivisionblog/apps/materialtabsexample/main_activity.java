@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
 
+import com.ivisionblog.apps.materialtabsexample.Question.DBHelper;
+
+import java.io.IOException;
+
 public class main_activity extends AppCompatActivity {
     ViewFlipper v_flipper;
     Button btn_BienBaoDuongBo;
@@ -33,6 +37,8 @@ public class main_activity extends AppCompatActivity {
                 startActivity(mhBienBao);
             }
         });
+
+        DBHelper db = new DBHelper(this);
         //load auto slide
         int images[] = {R.mipmap.s1,R.mipmap.s2,R.mipmap.s3,R.mipmap.s4};
 

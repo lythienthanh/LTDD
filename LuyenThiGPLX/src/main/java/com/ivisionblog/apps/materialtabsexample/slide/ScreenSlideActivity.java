@@ -6,11 +6,14 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ivisionblog.apps.materialtabsexample.Question.Question;
+import com.ivisionblog.apps.materialtabsexample.Question.QuestionController;
 import com.ivisionblog.apps.materialtabsexample.R;
+
+import java.util.ArrayList;
 
 public class ScreenSlideActivity extends FragmentActivity {
     /**
@@ -29,6 +32,10 @@ public class ScreenSlideActivity extends FragmentActivity {
      */
     private PagerAdapter mPagerAdapter;
 
+    //CSDL
+    QuestionController questionController;
+    ArrayList<Question> arr_Ques;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +46,15 @@ public class ScreenSlideActivity extends FragmentActivity {
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
+
+
+        questionController = new QuestionController(this);
+        arr_Ques=new ArrayList<Question>();
+        arr_Ques = questionController.getQuestions(1,"gdcd");
+    }
+
+    public ArrayList<Question> getdata() {
+        return arr_Ques;
     }
 
     @Override
@@ -64,7 +80,7 @@ public class ScreenSlideActivity extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return new ScreenSlidePageFragment();
+            return ScreenSlidePageFragment.create(position);
         }
 
         @Override

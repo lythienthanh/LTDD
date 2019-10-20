@@ -1,5 +1,73 @@
-<android.support.v4.view.ViewPager
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pager"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="#3eafff">
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+    <ImageView android:layout_height="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/img_exam_clock"
+        android:layout_gravity="center"
+        android:id="@+id/imageView2"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:id="@+id/tvTimer"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="15:00"/>
+
+</LinearLayout>
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+    <TextView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/txtNumQues"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+</LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+    <TextView android:layout_height="30dp"
+        android:layout_width="1dp"
+        android:background="#ffffff"
+        android:layout_gravity="center"/>
+    <TextView android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/tvKiemTra"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Kiểm tra"
+        android:gravity="center"/>
+    <TextView android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/tvScore"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Xem điểm"
+        android:gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>
+</LinearLayout>
+    <android.support.v4.view.ViewPager android:layout_height="fill_parent"
+        android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"/>
+</LinearLayout>

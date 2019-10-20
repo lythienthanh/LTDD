@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".chuyen_main_chondethi_fr">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <GridView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Chọn đề thi" />
+        android:id="@+id/gvSubject"
+        android:numColumns="2"/>
 </RelativeLayout>

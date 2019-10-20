@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.ivisionblog.apps.materialtabsexample.Question.DBHelper;
+
+import java.io.IOException;
+
 public class content extends AppCompatActivity {
     Button x;
 
@@ -13,6 +17,13 @@ public class content extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content);
+
+        DBHelper DB = new DBHelper(this);
+        try {
+            DB.createDataBase();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         x = (Button) findViewById(R.id.btn_Start);
         x.setOnClickListener(new View.OnClickListener() {
@@ -23,6 +34,5 @@ public class content extends AppCompatActivity {
                 manager.beginTransaction().replace(R.id.container,frment).commit();
             }
         });
-
     }
 }
