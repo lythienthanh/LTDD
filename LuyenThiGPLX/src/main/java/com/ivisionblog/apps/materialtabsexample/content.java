@@ -13,6 +13,7 @@ import java.io.IOException;
 public class content extends AppCompatActivity {
     Button x;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,10 +30,16 @@ public class content extends AppCompatActivity {
         x.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                x.setVisibility(View.GONE);//an btn
                 FragmentManager manager = getSupportFragmentManager();
                 chuyen_main_chondethi_fr frment = new chuyen_main_chondethi_fr();
                 manager.beginTransaction().replace(R.id.container,frment).commit();
             }
         });
     }
+
+
+
+
+
 }

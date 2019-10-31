@@ -1,6 +1,7 @@
 package com.ivisionblog.apps.materialtabsexample.slide;
 
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ivisionblog.apps.materialtabsexample.Question.Question;
 import com.ivisionblog.apps.materialtabsexample.R;
@@ -22,12 +24,15 @@ import java.util.ArrayList;
 public class ScreenSlidePageFragment extends Fragment {
 
     ArrayList<Question> arr_Ques;
-    public static final String ARG_PAGE="page";
+    public static final String ARG_PAGE = "page";
+    public static final String ARG_checkAns = "checkAns";
     private int mPageNumber;//vi tri trang hien tai
+    public int checkAns;//bien kiem tra
 
-    TextView tvNum,tvQuestion;
+    TextView tvNum, tvQuestion;
     RadioGroup radioGroup;
-    RadioButton radA,radB,radC,radD;
+    RadioButton radA, radB, radC, radD;
+
     public ScreenSlidePageFragment() {
         // Required empty public constructor
     }
@@ -56,25 +61,79 @@ public class ScreenSlidePageFragment extends Fragment {
         //lay data tu ScreenSlideActivity sang fragment
         arr_Ques = new ArrayList<Question>();
         ScreenSlideActivity screenSlideActivity = (ScreenSlideActivity) getActivity();
-        arr_Ques=screenSlideActivity.getdata();
+        arr_Ques = screenSlideActivity.getdata();
         mPageNumber = getArguments().getInt(ARG_PAGE);
+        checkAns = getArguments().getInt(ARG_checkAns);
     }
-    public static ScreenSlidePageFragment create(int pageNumber){
+
+    public static ScreenSlidePageFragment create(int pageNumber,int checkAns) {
         ScreenSlidePageFragment fragment = new ScreenSlidePageFragment();
         Bundle args = new Bundle();
-        args.putInt(ARG_PAGE,pageNumber);
+        args.putInt(ARG_PAGE, pageNumber);
+        args.putInt(ARG_checkAns,checkAns);
         fragment.setArguments(args);
         return fragment;
     }
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        tvNum.setText("Câu: "+(mPageNumber));
+        tvNum.setText("Câu: " + (mPageNumber + 1));
         tvQuestion.setText(arr_Ques.get(mPageNumber).getQuestion());
-        radA.setText(arr_Ques.get(mPageNumber).getAns_a());
-        radB.setText(arr_Ques.get(mPageNumber).getAns_b());
-        radC.setText(arr_Ques.get(mPageNumber).getAns_c());
-        radD.setText(arr_Ques.get(mPageNumber).getAns_d());
+        radA.setText(getitem(mPageNumber).getAns_a());
+        radB.setText(getitem(mPageNumber).getAns_b());
+        radC.setText(getitem(mPageNumber).getAns_c());
+        radD.setText(getitem(mPageNumber).getAns_d());
+
+        if(checkAns != 0)
+        {
+            radA.setClickable(false);
+            radB.setClickable(false);
+            radC.setClickable(false);
+            radD.setClickable(false);
+            getCheckAns(getitem(mPageNumber).getResult().toString());
+        }
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                getitem(mPageNumber).choiceid = checkedId;
+                getitem(mPageNumber).setTraloi(getchoiID(checkedId));
+            }
+        });
     }
+
+    public Question getitem(int posotion){
+        return arr_Ques.get(posotion);
+    }
+
+    //lay gia tri check chuyen thi dap an
+    private String getchoiID(int ID) {
+        if (ID == R.id.radA) {
+            return "A";
+        } else if (ID == R.id.radB) {
+            return "B";
+        } else if (ID == R.id.radC) {
+            return "C";
+        } else if (ID == R.id.radD) {
+            return "D";
+        } else return "";
+    }
+
+    //kiem tra cau dung,doi mau background neu dung
+    private void getCheckAns(String ans){
+        if(ans.equals("A") == true)
+            radA.setBackgroundColor(Color.RED);
+        else if(ans.equals("B") == true)
+            radB.setBackgroundColor(Color.RED);
+        else if(ans.equals("C") == true)
+            radC.setBackgroundColor(Color.RED);
+        else if(ans.equals("D") == true)
+            radD.setBackgroundColor(Color.RED);
+        else ;
+    }
+
+
+
+
 
 }

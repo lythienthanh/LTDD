@@ -1,6 +1,8 @@
 package com.ivisionblog.apps.materialtabsexample.Question;
 
-public class Question {
+import java.io.Serializable;
+
+public class Question implements Serializable {
     private int id;
     private String question;
     private String ans_a;
@@ -11,8 +13,17 @@ public class Question {
     private int num_exam;
     private String object;
     private String image;
+    private String Traloi="";
+    public int choiceid = -1;//ho tro so sanh radiogroup
+    public String getTraloi() {
+        return Traloi;
+    }
 
-    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String object, String image) {
+    public void setTraloi(String traloi) {
+        Traloi = traloi;
+    }
+
+    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String object, String image,String TraLoi) {
         this.id = id;
         this.question = question;
         this.ans_a = ans_a;
@@ -23,6 +34,7 @@ public class Question {
         this.num_exam = num_exam;
         this.object = object;
         this.image = image;
+        this.Traloi = TraLoi;
     }
     public Question() {
     }

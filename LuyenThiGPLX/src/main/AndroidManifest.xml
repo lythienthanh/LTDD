@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".slide.TestDoneActivity"></activity>
         <activity android:name=".main_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +19,7 @@
         </activity>
         <activity android:name=".BienBaoDuongBo_Activity" />
         <activity android:name=".content" />
-        <activity android:name=".slide.ScreenSlideActivity"/>
+        <activity android:name=".slide.ScreenSlideActivity" />
     </application>
 
 </manifest>

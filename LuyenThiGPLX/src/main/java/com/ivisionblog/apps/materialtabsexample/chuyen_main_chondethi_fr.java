@@ -54,6 +54,7 @@ public class chuyen_main_chondethi_fr extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent =new Intent(getActivity(), ScreenSlideActivity.class);
+                intent.putExtra("num_exam",i+1);
                 startActivity(intent);
             }
         });

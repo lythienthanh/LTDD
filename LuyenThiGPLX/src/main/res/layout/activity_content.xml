@@ -11,7 +11,7 @@
         android:id="@+id/btn_Start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bat dau chay frament de thi 1 hien tai dang la AAA...."
+        android:text="Sẵn Sàng"
         android:layout_centerInParent="true"
         tools:layout_editor_absoluteX="93dp"
         tools:layout_editor_absoluteY="113dp" />
