@@ -5,9 +5,11 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -32,6 +34,7 @@ public class ScreenSlidePageFragment extends Fragment {
     TextView tvNum, tvQuestion;
     RadioGroup radioGroup;
     RadioButton radA, radB, radC, radD;
+    ImageView image;
 
     public ScreenSlidePageFragment() {
         // Required empty public constructor
@@ -51,6 +54,7 @@ public class ScreenSlidePageFragment extends Fragment {
         radC = (RadioButton) rootView.findViewById(R.id.radC);
         radD = (RadioButton) rootView.findViewById(R.id.radD);
         radioGroup = (RadioGroup) rootView.findViewById(R.id.radGroup);
+        image = (ImageView) rootView.findViewById(R.id.image_dethi);
         return rootView;
     }
 
@@ -84,6 +88,12 @@ public class ScreenSlidePageFragment extends Fragment {
         radB.setText(getitem(mPageNumber).getAns_b());
         radC.setText(getitem(mPageNumber).getAns_c());
         radD.setText(getitem(mPageNumber).getAns_d());
+
+
+        int[] img = {R.drawable.s3,R.drawable.s4,R.drawable.s3,R.drawable.s4,R.drawable.s3,R.drawable.s4,R.drawable.s3,R.drawable.s4};
+        for(int i = 0 ; i < arr_Ques.size() ; i++) {
+            image.setImageResource(img[mPageNumber]);
+        }
 
         if(checkAns != 0)
         {

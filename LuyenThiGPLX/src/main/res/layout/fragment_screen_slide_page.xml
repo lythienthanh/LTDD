@@ -6,7 +6,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
         <ScrollView android:layout_height="fill_parent"
             android:layout_width="match_parent"
-            xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/content">
             <LinearLayout android:orientation="vertical"
                 android:layout_height="wrap_content"
@@ -77,6 +76,13 @@
                         android:checked="false"/>
                 </RadioGroup>
 
+                <ImageView
+                    android:id="@+id/image_dethi"
+                    android:layout_width="398dp"
+                    android:src="@drawable/s3"
+                    android:layout_height="249dp">
+
+                </ImageView>
             </LinearLayout>
 
     </ScrollView>

@@ -12,7 +12,7 @@ public class Question implements Serializable {
     private String result;
     private int num_exam;
     private String object;
-    private String image;
+    private int image;
     private String Traloi="";
     public int choiceid = -1;//ho tro so sanh radiogroup
     public String getTraloi() {
@@ -23,7 +23,7 @@ public class Question implements Serializable {
         Traloi = traloi;
     }
 
-    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String object, String image,String TraLoi) {
+    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String object, int image,String TraLoi) {
         this.id = id;
         this.question = question;
         this.ans_a = ans_a;
@@ -111,11 +111,11 @@ public class Question implements Serializable {
         this.object = object;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 }
