@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f8e1553-edc0-479a-ad99-de6589427d55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/drawable/s3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/drawable/s4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/assets/dbtracnghiem_sua.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/assets/dbtracnghiem_sua.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_page.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,10 +40,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="92" column="132" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
-              <folding>
-                <element signature="e#4214#4215#0" expanded="true" />
-                <element signature="e#4259#4260#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1059">
+            <state relative-caret-position="1258">
               <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#1442#1443#0" expanded="true" />
@@ -466,7 +454,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3343419" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33963692" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -481,7 +469,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50226927" side_tool="true" weight="0.9516908" />
       <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49319214" visible="true" weight="0.21767594" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4977307" weight="0.16202946" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4969743" weight="0.43371522" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -670,12 +658,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -739,80 +727,80 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_bienbaoduongbo.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_content.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_screen_slide.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_test_done.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/check_ans_dialog.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_chuyen_main_chondethi_fr.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_contacts.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_customer.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_gidview.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_griview_ans.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/single_contact.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="46" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -863,12 +851,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_page.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/widget/ImageView.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -902,6 +890,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="92" column="132" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
+          <folding>
+            <element signature="e#4214#4215#0" expanded="true" />
+            <element signature="e#4259#4260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/25.2.0/a96769ab44a1693f93a6a1e9d1f82a9bcb63d02c/support-fragment-25.2.0-sources.jar!/android/support/v4/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34816">
@@ -925,23 +924,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
+        <state relative-caret-position="1258">
           <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#1442#1443#0" expanded="true" />
             <element signature="e#1470#1471#0" expanded="true" />
             <element signature="e#2443#2444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="92" column="132" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
-          <folding>
-            <element signature="e#4214#4215#0" expanded="true" />
-            <element signature="e#4259#4260#0" expanded="true" />
           </folding>
         </state>
       </provider>
