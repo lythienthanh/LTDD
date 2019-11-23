@@ -35,12 +35,14 @@
     </TableRow>
     <TableRow>
         <Button
+            android:id="@+id/meothi"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:text="MẸO THI KẾT QUẢ CAO"
             android:background="@mipmap/s8"/>
 
         <Button
+            android:id="@+id/tracuu"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:text="TRA CỨU LUẬT NHANH"

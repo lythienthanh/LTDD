@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".slide.TestDoneActivity"></activity>
+        <activity android:name=".slide.TestDoneActivity" />
         <activity android:name=".main_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,8 @@
         <activity android:name=".BienBaoDuongBo_Activity" />
         <activity android:name=".content" />
         <activity android:name=".slide.ScreenSlideActivity" />
+        <activity android:name=".tracuu_2" />
+        <activity android:name=".Main2Activity"/>
     </application>
 
 </manifest>
