@@ -10,13 +10,12 @@ import com.ivisionblog.apps.materialtabsexample.Question.DBHelper;
 
 import java.io.IOException;
 
-public class content extends AppCompatActivity {
+public class conten_lythuyet extends AppCompatActivity {
     Button x;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content);
+        setContentView(R.layout.activity_conten_lythuyet);
 
         DBHelper DB = new DBHelper(this);
         try {
@@ -31,14 +30,9 @@ public class content extends AppCompatActivity {
             public void onClick(View view) {
                 x.setVisibility(View.GONE);//an btn
                 FragmentManager manager = getSupportFragmentManager();
-                chuyen_main_chondethi_fr frment = new chuyen_main_chondethi_fr();
+                chuyen_main_lythuyet_fr frment = new chuyen_main_lythuyet_fr();
                 manager.beginTransaction().replace(R.id.container,frment).commit();
             }
         });
     }
-
-
-
-
-
 }

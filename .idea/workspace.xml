@@ -10,34 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f8e1553-edc0-479a-ad99-de6589427d55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/CrycleViewAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FargmentLithuyet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FragmentThuchanh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/sqllite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/RecycleViewAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/TracuuAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/ViewAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/lithuyet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/thuchanh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/tracuu_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/drawable/ic_keyboard_backspace_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_meo_thi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_tracuu_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_li_thuyet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_thuc_hanh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_thuchanh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/itemlithuyet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/li_thuyet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/lv_tra_cuu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/thuchanh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_main_lythuyet_fr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/conten_lythuyet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_conten_lythuyet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_chuyen_main_lythuyet_fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_activity_lythuyet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/assets/dbtracnghiem_sua.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/assets/dbtracnghiem_sua.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/content.java" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/content.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_content.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -50,7 +36,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.221.101:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_23" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -65,125 +51,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_li_thuyet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_thuc_hanh.xml">
+        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="-2146">
+              <caret line="84" column="26" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="26" />
+              <folding>
+                <element signature="e#4155#4319#0" expanded="true" />
+                <element signature="e#4318#4319#0" expanded="true" />
+                <element signature="e#4364#4697#0" expanded="true" />
+                <element signature="e#4696#4697#0" expanded="true" />
+                <element signature="e#4761#4762#0" expanded="true" />
+                <element signature="e#4792#4793#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255" />
           </provider>
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/thuchanh.java">
+        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-187">
+              <caret line="87" column="50" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/RecycleViewAdapter.java">
+        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/TestDoneActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="73" column="70" lean-forward="true" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FragmentThuchanh.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Main2Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FargmentLithuyet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="31" column="86" lean-forward="true" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/CrycleViewAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-34">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -194,8 +100,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -205,18 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/QuestionController.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_page.xml" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/tra_cuu.xml" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/sqllite.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/TraCuu/tracuuAdapter.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/TracuuAdapter.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/TraCuu.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/BienBaoDuongBo_Activity.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/TraCuu.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/tracuu_2.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/lv_tra_cuu.xml" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_tracuu_2.xml" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Farment/MeoLiThuyet.java" />
@@ -240,7 +134,6 @@
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/frm_li_thuyet.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/frm_thuc_hanh.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/ViewPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/ViewAdapter.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Main2Activity.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/lithuyet.java" />
@@ -256,10 +149,23 @@
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FargmentLithuyet.java" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_li_thuyet.xml" />
         <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_thuc_hanh.xml" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_mai_chonthilythuyet_fr.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/content.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_content.xml" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/conten_lythuyet.xml" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_conten_lythuyet.xml" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_chuyen_main_lythuyet_fr.xml" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/conten_lythuyet.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_activity_lythuyet.xml" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity_lythuyet.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_main_chondethi_fr.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_main_lythuyet_fr.java" />
+        <option value="$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="775" />
@@ -269,19 +175,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LTDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LTDD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -304,6 +200,25 @@
               <item name="LuyenThiGPLX" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="materialtabsexample" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTDD" type="1abcf292:AndroidViewProjectNode" />
+              <item name="LuyenThiGPLX" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="materialtabsexample" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTDD" type="1abcf292:AndroidViewProjectNode" />
+              <item name="LuyenThiGPLX" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="materialtabsexample" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="slide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LTDD" type="1abcf292:AndroidViewProjectNode" />
+              <item name="LuyenThiGPLX" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="LTDD" type="1abcf292:AndroidViewProjectNode" />
@@ -333,7 +248,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-11-23T11:07:25.863Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LuyenThiGPLX/src/main/assets" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -557,11 +472,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="775" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49918166" visible="true" weight="0.30786687" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49918166" visible="true" weight="0.31694403" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.5008183" side_tool="true" weight="0.30786687" />
@@ -570,22 +485,22 @@
       <window_info id="Resources Explorer" order="7" weight="0.3290469" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.49848714" weight="0.85358256" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.4977307" visible="true" weight="0.048286606" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49621785" weight="0.049919486" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4977307" weight="0.32866043" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4969743" weight="0.3894081" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4969743" weight="0.32866043" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.048286606" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49167928" weight="0.4049844" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.2447665" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.4924357" weight="0.4009662" />
       <window_info anchor="bottom" id="Android Profiler" order="7" sideWeight="0.49319214" weight="0.3894081" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4924357" weight="0.35825545" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4969743" weight="0.049099836" />
-      <window_info anchor="right" id="Assistant" weight="0.32980332" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49167928" weight="0.35748792" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49546143" weight="0.2447665" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.25037822" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.25037822" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -641,16 +556,24 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FargmentLithuyet.java</url>
           <line>16</line>
@@ -661,354 +584,19 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-25/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <folding>
-            <element signature="e#0#30542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_contacts.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/TestDoneActivity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_bienbaoduongbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/TabsFragmentPager_BBDB_Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/adapter/BienBaoAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="68" column="49" lean-forward="true" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/fragments/BienCamFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/chil_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/group_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/fragments/BienDieuHuongFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="48" column="69" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Custom.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_main_chondethi_fr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_fragment_thuchanh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Fragment_thuchanh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_fragment_lithuyet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Adapterlithuyet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Fragment_lithuyet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/TracuuAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/frm_thuc_hanh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/frm_li_thuyet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/ExamAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/MeoThi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/ViewPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/tracuu_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/ViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/BienBaoDuongBo_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_meo_thi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="28" column="40" selection-start-line="6" selection-start-column="4" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/expan.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_griview_ans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_gidview.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_tracuu_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_main2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/li_thuyet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/lv_tra_cuu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/thuchanh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/itemlithuyet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/lithuyet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_thuchanh.xml">
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FargmentLithuyet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/CrycleViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
+        <state relative-caret-position="68">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1016,87 +604,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/RecycleViewAdapter.java">
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/content.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FragmentThuchanh.java">
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_content.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="10" column="29" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Main2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/main_activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="73" column="70" lean-forward="true" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
+        <state relative-caret-position="87">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1543#1783#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_conten_lythuyet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="124">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/FargmentLithuyet.java">
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_gidview.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="31" column="86" lean-forward="true" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+        <state relative-caret-position="-204" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/thuchanh.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/25.2.0/a96769ab44a1693f93a6a1e9d1f82a9bcb63d02c/support-fragment-25.2.0-sources.jar!/android/support/v4/app/FragmentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="232">
+          <caret line="1333" selection-start-line="1333" selection-end-line="1333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="410" selection-start-line="410" selection-end-line="410" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_activity_lythuyet.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Exam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-879">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/com/android/internal/os/RuntimeInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="104" column="44" lean-forward="true" selection-start-line="104" selection-start-column="44" selection-end-line="104" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/25.2.0/a96769ab44a1693f93a6a1e9d1f82a9bcb63d02c/support-fragment-25.2.0-sources.jar!/android/support/v4/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="939" selection-start-line="939" selection-end-line="939" />
           <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#33249#33250#0" expanded="true" />
+            <element signature="e#33292#33293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_li_thuyet.xml">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/25.2.0/a96769ab44a1693f93a6a1e9d1f82a9bcb63d02c/support-fragment-25.2.0-sources.jar!/android/support/v4/app/FragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="149">
+          <caret line="931" selection-start-line="931" selection-end-line="931" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/25.2.0/3a722a37a1372be570b89f10b4bf2ed6dd405f91/support-compat-25.2.0-sources.jar!/android/support/v4/app/ActivityCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/25.2.0/3a722a37a1372be570b89f10b4bf2ed6dd405f91/support-compat-25.2.0-sources.jar!/android/support/v4/app/ActivityCompatJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/25.2.0/a96769ab44a1693f93a6a1e9d1f82a9bcb63d02c/support-fragment-25.2.0-sources.jar!/android/support/v4/app/BaseFragmentActivityJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="e#3677#3678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1507" selection-start-line="1507" selection-end-line="1507" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="4706" selection-start-line="4706" selection-end-line="4706" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/app/ContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/app/ActivityManagerNative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/util/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/os/Bundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/os/BaseBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1856" selection-start-line="1856" selection-end-line="1856" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/database/sqlite/SQLiteOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/conten_lythuyet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity_lythuyet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="243" column="32" lean-forward="true" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_chuyen_main_lythuyet_fr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
@@ -1104,10 +835,136 @@
     <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/frm_thuc_hanh.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="5283" selection-start-line="5283" selection-end-line="5283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/item_griview_ans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/lv_tra_cuu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_customer.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_main_chondethi_fr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="e#1710#2060#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/chuyen_main_lythuyet_fr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="49" column="76" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="76" />
+          <folding>
+            <element signature="e#1577#1927#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/Question/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding>
+            <element signature="e#487#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/TestDoneActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_main2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_screen_slide.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/activity_test_done.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/check_ans_dialog.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_chuyen_main_chondethi_fr.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_contacts.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_meo_thi.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/res/layout/fragment_screen_slide_page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlidePageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="87" column="50" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuyenThiGPLX/src/main/java/com/ivisionblog/apps/materialtabsexample/slide/ScreenSlideActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2146">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="26" />
+          <folding>
+            <element signature="e#4155#4319#0" expanded="true" />
+            <element signature="e#4318#4319#0" expanded="true" />
+            <element signature="e#4364#4697#0" expanded="true" />
+            <element signature="e#4696#4697#0" expanded="true" />
+            <element signature="e#4761#4762#0" expanded="true" />
+            <element signature="e#4792#4793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

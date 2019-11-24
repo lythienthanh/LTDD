@@ -33,6 +33,7 @@ public class main_activity extends AppCompatActivity {
     Button btn_thisathach;
     Button btn_tracuu;
     Button btn_meothi;
+    Button btn_lythuyet;
     ListView listView;
     ArrayAdapter adapter;
     ArrayList<TracuuAdapter> lv=new ArrayList<>();
@@ -43,6 +44,14 @@ public class main_activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        btn_lythuyet = (Button) findViewById(R.id.btn_hoclythuyet);
+        btn_lythuyet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent lythuyet = new Intent(main_activity.this, conten_lythuyet.class);
+                startActivity(lythuyet);
+            }
+        });
         btn_BienBaoDuongBo = (Button) findViewById(R.id.bienbao);
         btn_BienBaoDuongBo.setOnClickListener(new View.OnClickListener() {
             @Override

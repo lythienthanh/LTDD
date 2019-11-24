@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ivisionblog.apps.materialtabsexample.Question.Question;
@@ -43,12 +44,13 @@ public class ScreenSlideActivity extends FragmentActivity {
     private PagerAdapter mPagerAdapter;
     TextView tv_kiemtra,tv_timer,tv_xemdiem;
     public int check_Ans = 0;
-
+    ImageView img_exam_clock;
     //CSDL
     QuestionController questionController;
     ArrayList<Question> arr_Ques;
     CountDownTimer timer;
     int num_exam;
+    int phanthi; //0 chon de thi || 1 chon hoc ly thuyet
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,34 +65,55 @@ public class ScreenSlideActivity extends FragmentActivity {
 
         Intent intent = getIntent();
         num_exam = intent.getIntExtra("num_exam",0);
+        if(num_exam == 0)
+        {
+            num_exam = intent.getIntExtra("num_exam1",0);
+            questionController = new QuestionController(this);
+            arr_Ques=new ArrayList<Question>();
+            arr_Ques = questionController.getQuestions(num_exam,"lythuyet");
+            tv_xemdiem = (TextView) findViewById(R.id.tvScore);
+            tv_timer = (TextView) findViewById(R.id.tvTimer);
+            tv_timer.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
 
-        questionController = new QuestionController(this);
-        arr_Ques=new ArrayList<Question>();
-        arr_Ques = questionController.getQuestions(num_exam,"thisathach");
-        tv_xemdiem = (TextView) findViewById(R.id.tvScore);
-        tv_timer = (TextView) findViewById(R.id.tvTimer);
-        tv_timer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+                }
+            });
+            tv_kiemtra = (TextView) findViewById(R.id.tvKiemTra);
+            tv_kiemtra.setVisibility(View.GONE);
+            tv_timer.setVisibility(View.GONE);
+            resultlythuyet();
 
-            }
-        });
-        tv_kiemtra = (TextView) findViewById(R.id.tvKiemTra);
-        tv_kiemtra.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                checkAns();
-            }
-        });
-        tv_xemdiem.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent1 = new Intent(ScreenSlideActivity.this,TestDoneActivity.class);
-                intent1.putExtra("arr_Ques",arr_Ques);
-                startActivity(intent1);
-            }
-        });
-        timer.start();
+        }else{
+            questionController = new QuestionController(this);
+            arr_Ques=new ArrayList<Question>();
+            arr_Ques = questionController.getQuestions(num_exam,"thisathach");
+            tv_xemdiem = (TextView) findViewById(R.id.tvScore);
+            tv_timer = (TextView) findViewById(R.id.tvTimer);
+            tv_timer.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                }
+            });
+            tv_kiemtra = (TextView) findViewById(R.id.tvKiemTra);
+            tv_kiemtra.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    checkAns();
+                }
+            });
+            tv_xemdiem.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent1 = new Intent(ScreenSlideActivity.this,TestDoneActivity.class);
+                    intent1.putExtra("arr_Ques",arr_Ques);
+                    startActivity(intent1);
+                }
+            });
+            timer.start();
+        }
+
     }
 
     public ArrayList<Question> getdata() {
@@ -212,6 +235,19 @@ public class ScreenSlideActivity extends FragmentActivity {
         tv_xemdiem.setVisibility(View.VISIBLE); //hien thi
         tv_kiemtra.setVisibility(View.GONE);
     }
+
+    public void resultlythuyet()
+    {
+        check_Ans = 1;
+        //load background
+        if(mPager.getCurrentItem() >= 4) mPager.setCurrentItem(mPager.getCurrentItem() -4);
+        else if(mPager.getCurrentItem() <= 4) mPager.setCurrentItem(mPager.getCurrentItem() + 4);
+
+
+//        tv_xemdiem.setVisibility(View.VISIBLE); //hien thi
+//        tv_kiemtra.setVisibility(View.GONE);
+    }
+
     public class CounterClass extends CountDownTimer {
         /**
          * @param millisInFuture    The number of millis in the future from the call
